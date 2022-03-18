@@ -147,14 +147,14 @@ function buildCharts(sample) {
             mode: "gauge+number",
             title: { text: "Belly Button Washing Frequency <br>Scrubs per Week " },
             gauge: {
-                'bar': { 'color': "black" },
+                bar: { color: "black" },
                 axis: { range: [null, 10], tickwidth: 2 },
                 steps: [
                     { range: [0, 2], color: "red" },
                     { range: [2, 4], color: "orange" },
                     { range: [4, 6], color: "yellow" },
-                    { range: [6, 8], color: "green" },
-                    { range: [8, 10], color: "blue" },
+                    { range: [6, 8], color: "lightgreen" },
+                    { range: [8, 10], color: "green" },
                 ]
 
             }
